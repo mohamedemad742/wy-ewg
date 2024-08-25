@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    height: 100vh;
+    background-image: url(pexels-muffin-1653877.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+   height: 60px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    padding: 20px 50px;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: 75%;
+}
+.content p{
+    color: white;
+}
+.content input{
+    margin-top: 30px;
+    width: 80px;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 10px 10px;
+}
+.content input:hover{
+width: 90px;
+color: thistle;
+}
+.contiener{
+   
+    max-width: 1100px;
+    margin: auto;
+}
+.about{
+    
+    max-width: 1100px;
+    margin: auto;
+}
+.contiener h2{
+    text-align: center;
+    
+    text-decoration: underline;
+}
+.contiener .prag{
+    text-align: center;
+}
+.about button{
+    margin-top: 30px;
+    width: 80px;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 5px 5px;
+    color: grey;
+    
+}
+
+.about button:hover{
+    width: 90px;
+color: thistle;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.div{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(22, 21, 21);
+    background-color:rgba(37, 35, 34, 0.178);
+    float: left;
+    margin-left: 170px;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+.menue{
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+border-radius: 50%;
+text-align: center;
+margin-left: 50px;
+margin-top: 30px;
+
+
+
+
+
+}
+
+
+
+.prag{
+    text-align: center;
+    margin-top: 20px;
+}
+.div:hover{
+background-color:antiquewhite;
+
+}
+ 
+input{
+
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 40px;
+}
